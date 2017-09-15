@@ -13,7 +13,7 @@ function forLoop(array) {
 }
 
 function doWhileLoop(array) {
-  while(array.length != 0)
+  while(!array.empty)
   {
     array.pop()
   }
