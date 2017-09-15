@@ -12,10 +12,9 @@ function forLoop(array) {
   return array
 }
 
-function doWhileLoop(array) {
-  while(!array.empty)
-  {
-    array.pop()
+function whileLoop(n) {
+  while(n>0) {
+    console.log(--n)
   }
-  return array
+  return 'done'
 }
